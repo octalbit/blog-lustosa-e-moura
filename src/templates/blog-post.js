@@ -35,6 +35,7 @@ class BlogPostTemplate extends React.Component {
 							{post.frontmatter.date}
 						</p>
 						<img src={post.frontmatter.url_photo} style={{ width: '100%' }} />
+						<img src="../../content/assets/mente.jpeg" alt="lola" />
 					</header>
 					<section dangerouslySetInnerHTML={{ __html: post.html }} />
 					<iframe width="100%" height="500" src={post.frontmatter.url_movie} />

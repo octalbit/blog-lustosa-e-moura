@@ -7,4 +7,4 @@ url_photo: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 ---
 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
-![sds](/content/assets/test.jpeg "sdd")
+![sds](../assets/test.jpeg "sdd")

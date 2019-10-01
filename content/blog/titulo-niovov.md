@@ -97,6 +97,6 @@ s
 
 s
 
-![imagem da mente loiuca](content/assets/mente.jpeg "mente")
+![imagem da mente loiuca](../assets/mente.jpeg "mente")
 
 s
