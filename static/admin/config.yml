@@ -3,7 +3,7 @@ backend:
   repo: octalbit/blog-lustosa-e-moura
 
 media_folder: content/assets
-public_folder: assets
+public_folder: content/assets
 
 collections:
   - name: blog
