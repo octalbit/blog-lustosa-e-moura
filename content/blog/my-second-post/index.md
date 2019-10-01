@@ -1,6 +1,8 @@
 ---
-title: My Second Post!
+title: Segundo Post!
 date: "2015-05-06T23:46:37.121Z"
+url_movie: https://www.youtube.com/embed/SKraIOWTmHU
+url_photo: https://media.gettyimages.com/photos/arch-bridge-in-kromlau-picture-id539121576?s=612x612
 ---
 
 Wow! I love blogging so much already.
