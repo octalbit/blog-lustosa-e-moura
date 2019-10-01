@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { rhythm, scale } from '../utils/typography';
+import { rhythm, scale } from '../../utils/typography';
+import GlobalStyles from '../../styles/global'
+
+import * as S from './styled'
+import Navbar from '../Navbar'
 
 class Layout extends React.Component {
 	render() {
@@ -52,15 +56,9 @@ class Layout extends React.Component {
 			);
 		}
 		return (
-			<div
-				style={{
-					marginLeft: `auto`,
-					marginRight: `auto`,
-					maxWidth: rhythm(24),
-					padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
-				}}
-			>
-				<header>{header}</header>
+			<S.LayoutWrapper>
+				<GlobalStyles />
+				<Navbar />
 				<main>{children}</main>
 				<footer>
 					© {new Date().getFullYear()}, criado por
@@ -69,7 +67,7 @@ class Layout extends React.Component {
 						Octalbit
 					</a>
 				</footer>
-			</div>
+			</S.LayoutWrapper>
 		);
 	}
 }

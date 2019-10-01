@@ -1,8 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: `Lustosa e Moura Blog`,
+		title: `Lustosa e Moura - Advocacia e Consultoria Jurídica`,
 		author: `Lustosa e Moura`,
-		description: `Blog Lustosa e Moura`,
+		description: `Somos focados na excelência do atendimento a cada cliente, proporcionando-lhe o conforto de estar sempre bem informado de suas causas e seguro de que a estas os sócios lhe emprestam alta competência técnica, desenvolvendo estratégias específicas, bem como atuam dentro de rigorosa ética.`,
 		siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
 		url_movie: 'lslls',
 		url_photo: '',
@@ -12,6 +12,7 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-netlify-cms',
+		'gatsby-plugin-styled-components',
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
