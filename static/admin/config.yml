@@ -2,13 +2,13 @@ backend:
   name: github
   repo: octalbit/blog-lustosa-e-moura
 
-media_folder: static/assets
+media_folder: content/assets
 public_folder: assets
 
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/blog
     create: true
     fields:
       - { name: path, label: Path }
