@@ -39,6 +39,7 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
+	text-decoration: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {

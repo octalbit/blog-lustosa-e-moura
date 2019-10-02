@@ -6,6 +6,7 @@ import GlobalStyles from '../../styles/global'
 
 import * as S from './styled'
 import Navbar from '../Navbar'
+import Footer from '../Footer'
 
 class Layout extends React.Component {
 	render() {
@@ -60,13 +61,7 @@ class Layout extends React.Component {
 				<GlobalStyles />
 				<Navbar />
 				<main>{children}</main>
-				<footer>
-					© {new Date().getFullYear()}, criado por
-					{` `}
-					<a href="https://frosty-beaver-32580f.netlify.com/" target="_blank">
-						Octalbit
-					</a>
-				</footer>
+				<Footer />
 			</S.LayoutWrapper>
 		);
 	}

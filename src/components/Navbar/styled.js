@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 
 export const NavbarWrapper = styled.nav`
-    width: 100vw;
+    width: 100%;
     height: 70px;
-    background-color: #fff;
 `
 export const NavbarContainer = styled.div`
-    max-width: 980px;
+    max-width: 1000px;
     margin: auto;
     height: 100%;
 `
