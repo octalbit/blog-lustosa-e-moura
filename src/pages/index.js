@@ -5,13 +5,14 @@ import SEO from "../components/seo"
 
 import Hero from '../components/Hero'
 import About from '../components/About'
-//import Area from '../components/Area'
+import Area from '../components/Area'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
     <About />
+    <Area />
   </Layout>
 )
 
