@@ -1,78 +1,17 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
+import React from "react"
 
-import Bio from '../components/bio';
-import Layout from '../components/Layout';
-import SEO from '../components/seo';
-import { rhythm } from '../utils/typography';
+import Layout from "../components/Layout"
+import SEO from "../components/seo"
 
-class BlogIndex extends React.Component {
-	render() {
-		const { data } = this.props;
-		const siteTitle = data.site.siteMetadata.title;
-		const posts = data.allMarkdownRemark.edges;
+//import Hero from '../components/Hero'
+//import About from '../components/About'
+//import Area from '../components/Area'
 
-		return (
-			<Layout location={this.props.location} title={siteTitle}>
-				<SEO title="All posts" />
-				<Bio />
-				{posts.map(({ node }) => {
-					const title = node.frontmatter.title || node.fields.slug;
-					return (
-						<article key={node.fields.slug}>
-							<header>
-								<h2
-									style={{
-										marginBottom: rhythm(1 / 4)
-									}}
-								>
-									<Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-										{title}
-									</Link>
-								</h2>
-								<small>{node.frontmatter.date}</small>
-							</header>
-							<section>
-								<p
-									dangerouslySetInnerHTML={{
-										__html: node.frontmatter.description || node.excerpt
-									}}
-								/>
-								<img src={node.frontmatter.url_photo} alt="fotto do post" />
-							</section>
-						</article>
-					);
-				})}
-			</Layout>
-		);
-	}
-}
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    
+  </Layout>
+)
 
-export default BlogIndex;
-
-export const pageQuery = graphql`
-	query {
-		site {
-			siteMetadata {
-				title
-			}
-		}
-		allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-			edges {
-				node {
-					excerpt
-					fields {
-						slug
-					}
-					frontmatter {
-						date(formatString: "MMMM DD, YYYY")
-						title
-						description
-						url_movie
-						url_photo
-					}
-				}
-			}
-		}
-	}
-`;
+export default IndexPage
