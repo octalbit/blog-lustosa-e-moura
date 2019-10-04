@@ -27,7 +27,7 @@ export const AreaBoxItems = styled.div`
 `
 export const AreaBoxItem = styled.div`
     flex: 1 1 300px;
-	margin: 20px 10px;
+	margin: 10px 10px;
     padding: 30px 15px;
     background-color: #FBF8F8;
 `
