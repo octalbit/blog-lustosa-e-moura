@@ -1,21 +1,19 @@
-import styled from 'styled-components'
-import { Link } from 'gatsby'
+import styled from 'styled-components';
+import { Link } from 'gatsby';
 
-export const MenuLinksWrapper = styled.div`
-
-`
+export const MenuLinksWrapper = styled.div``;
 export const MenuLinksList = styled.ul`
-    display: flex;
-    align-items: center;
-`
+	display: flex;
+	align-items: center;
+`;
 
 export const MenuLinksItem = styled.li`
-    padding: 0 0.8rem;
+	padding: 0 0.8rem;
 
-    .active {
-        color: #B88A34;
-    }
-`
+	.active {
+		color: #b88a34;
+	}
+`;
 
 export const MenuLinksLink = styled(Link)`
     color: #111231;
@@ -27,7 +25,7 @@ export const MenuLinksLink = styled(Link)`
     &:hover {
         color: #B88A34;    
     }
-`
+`;
 export const MenuLinksBtn = styled(Link)`
     width: 150px;
     height: 40px;
@@ -44,4 +42,4 @@ export const MenuLinksBtn = styled(Link)`
     &:hover {
         background-color: #111231;
     }
-`
+`;

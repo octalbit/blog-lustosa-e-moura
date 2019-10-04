@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -62,5 +62,5 @@ img {
     max-width: 100%;
 }
 
-`
-export default GlobalStyles
+`;
+export default GlobalStyles;

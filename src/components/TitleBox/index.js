@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import * as S from './styled'
+import * as S from './styled';
 
-const TitleBox = ({text}) => (
-    <S.Titlebox>{text}</S.Titlebox>
-)
+const TitleBox = ({ text }) => <S.Titlebox>{text}</S.Titlebox>;
 
-export default TitleBox
+export default TitleBox;
