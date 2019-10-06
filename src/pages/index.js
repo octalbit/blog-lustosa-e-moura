@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Area from '../components/Area';
 import Law from '../components/Lawyer';
+import BlogHome from '../components/BlogHome'
 
 const IndexPage = () => (
 	<Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
 		<About />
 		<Area />
 		<Law />
+		<BlogHome />
 	</Layout>
 );
 

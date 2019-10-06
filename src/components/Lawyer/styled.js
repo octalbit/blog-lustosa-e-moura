@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const LawWrapper = styled.section`
     width: 100%;
     height: 100%;
+    background-color: #FBF8F8;
 `
 export const LawContainer = styled.div`
     max-width: 1000px;
@@ -26,7 +27,10 @@ export const LawBoxItem = styled.div`
 `
 export const LawBoxImg = styled.div`
 `
-export const LawImg = styled.img``
+export const LawImg = styled.img`
+    margin: auto;
+    display: block;
+`
 
 export const LawBoxNome = styled.h5`
     text-align: center;

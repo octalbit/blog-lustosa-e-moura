@@ -32,6 +32,7 @@ export const AreaBoxItem = styled.div`
 	background-color: #fbf8f8;
 `;
 export const AreaImgItem = styled.img`
+	display: block;
 	max-width: 80px;
 	margin: auto;
 `;
