@@ -8,6 +8,7 @@ import About from '../components/About';
 import Area from '../components/Area';
 import Law from '../components/Lawyer';
 import BlogHome from '../components/BlogHome'
+import ContactBox from '../components/ContactBox'
 
 const IndexPage = () => (
 	<Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
 		<Area />
 		<Law />
 		<BlogHome />
+		<ContactBox />
 	</Layout>
 );
 
