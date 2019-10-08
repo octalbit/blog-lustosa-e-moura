@@ -31,6 +31,28 @@ const ContactBox = () => (
                             E-mail: <S.ContactBoxInfoMailLink>vicenteemoura@gmail.com</S.ContactBoxInfoMailLink> 
                         </S.ContactBoxInfoMail>
                     </S.ContactBoxInfoItem>
+                    <S.ContactBoxFormBox>
+                        <S.ContactBoxForm>
+                            <S.ContactBoxFormInput 
+                                type="text" 
+                                placeholder="Nome" />
+                            <S.ContactBoxFormInput 
+                                type="text" 
+                                placeholder="Email" />
+                            <S.ContactBoxFormInput 
+                                type="text" 
+                                placeholder="Telefone" />
+                            <S.ContactBoxFormOption 
+                                placeholder="Selecione o assunto">
+
+                            </S.ContactBoxFormOption>
+                            <S.ContactBoxFormTextArea 
+                                placeholder="Menssagem">
+
+                            </S.ContactBoxFormTextArea>
+                            <S.ContactBoxFormBtn>Enviar</S.ContactBoxFormBtn>
+                        </S.ContactBoxForm>
+                    </S.ContactBoxFormBox>
                 </S.ContactBoxInfoBox>
             </S.ContactBoxContent>
         </S.ContactBoxContainer>

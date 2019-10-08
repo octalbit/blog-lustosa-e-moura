@@ -1,13 +1,16 @@
 import styled from 'styled-components'
-
+import { device } from '../../styles/device';
 import BgHero from '../../images/bg-hero.jpg'
 
 export const HeroWrapper = styled.section`
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image: url(${BgHero});
     background-position: center;
     background-size: cover;
+    @media ${device.mobile} {
+        padding: 0px 15px;
+    }
 `
 export const HeroContainer = styled.div`
     max-width: 1000px;
@@ -34,6 +37,9 @@ export const HeroBannerTitle = styled.h1`
     text-align: center;
     color: #fff;
     padding: 0px 0px 30px 0px;
+    @media ${device.mobile} {
+        font-size: 40px;
+    }
 `
 export const HeroBannerSubtitle = styled.p`
     font-size: 1.0rem;

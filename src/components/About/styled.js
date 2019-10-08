@@ -11,16 +11,14 @@ export const AboutContainer = styled.div`
     height: 100%;
 `;
 export const AboutContent = styled.div`
-    @media ${device.laptop} {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px 0px;  
-    }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;  
 
-    @media ${device.mobileS} {
+    @media ${device.mobile} {
         flex-direction: column;
     }
 `;

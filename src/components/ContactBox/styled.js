@@ -54,3 +54,64 @@ export const ContactBoxInfoMailLink = styled(Link)`
 		color: #B88A34;
 	}
 `;
+export const ContactBoxFormBox = styled.div`
+	width: 100%;
+	padding: 15px 10px;
+`;
+export const ContactBoxForm = styled.form`
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+`;
+export const ContactBoxFormInput = styled.input`
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 4px solid #171841;
+	background-color: transparent;
+	color: #fff;
+	font-weight: 500;
+`;
+export const ContactBoxFormOption = styled.option`
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 4px solid #171841;
+	background-color: transparent;
+	color: #fff;
+	font-weight: 500;
+`;
+export const ContactBoxFormTextArea = styled.textarea`
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 4px solid #171841;
+	background-color: transparent;
+	color: #fff;
+	font-weight: 500;
+`;
+export const ContactBoxFormBtn = styled.button`
+    width: 150px;
+    height: 40px;
+    background-color: #B88A34;
+    transition: 0.2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 0px;
+
+    &:hover {
+		background-color: #ffff;
+        color: #111231;
+    }
+`;
