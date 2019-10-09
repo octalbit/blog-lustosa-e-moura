@@ -22,5 +22,12 @@ export const BlogPostTitle = styled.h2`
 export const BlogPostInfoPost = styled.div`
     max-width: 800px;
     margin: auto;
-    padding: 15px;
-`
+    padding: 25px 0px;
+`;
+export const BlogPostInfoTextBox = styled.div`
+    width: auto;
+    height: auto;
+`;
+export const BlogPostInfoDate = styled.p`
+    margin-top: 10px;
+`;

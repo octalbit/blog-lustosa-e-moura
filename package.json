@@ -31,6 +31,7 @@
 		"react-helmet": "^5.2.1",
 		"react-typography": "^0.16.19",
 		"styled-components": "^4.4.0",
+		"styled-icons": "^8.4.2",
 		"typeface-merriweather": "0.0.72",
 		"typeface-montserrat": "0.0.75",
 		"typography": "^0.16.19",

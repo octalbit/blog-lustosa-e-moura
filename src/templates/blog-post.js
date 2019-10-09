@@ -6,6 +6,7 @@ import Bio from '../components/bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
+import SocialLinks from '../components/SocialLinks'
 
 class BlogPostTemplate extends React.Component {
 	render() {
@@ -29,29 +30,24 @@ class BlogPostTemplate extends React.Component {
 									{post.frontmatter.title}
 								</S.BlogPostTitle>
 								<S.BlogPostInfoPost>
-								<p
-									style={{
-										...scale(-1 / 5),
-										display: `block`,
-										marginBottom: rhythm(1)
-									}}
-								>
-									{post.frontmatter.date}
-								</p>
+									<S.BlogPostInfoTextBox>
+										<Bio />
+										<S.BlogPostInfoDate>
+											{post.frontmatter.date}
+										</S.BlogPostInfoDate>
+									</S.BlogPostInfoTextBox>
+									{/* <SocialLinks /> */}
 								</S.BlogPostInfoPost>
 								
 								{/* <img src={post.frontmatter.url_photo} style={{ width: '100%' }} /> */}
 							</header>
 							<section dangerouslySetInnerHTML={{ __html: post.html }} />
-							<iframe width="100%" height="500" src={post.frontmatter.url_movie} />
+							<iframe width="80%" height="500" src={post.frontmatter.url_movie} />
 							<hr
 								style={{
 									marginBottom: rhythm(1)
 								}}
 							/>
-							<footer>
-								<Bio />
-							</footer>
 						</S.BlogPostContent>
 					</S.BlogPostContainer>
 				</S.BlogPostWrapper>
