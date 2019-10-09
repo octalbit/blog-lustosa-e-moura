@@ -1,4 +1,5 @@
 import React from 'react';
+import * as S from '../styles/styledBlogPost';
 import { Link, graphql } from 'gatsby';
 
 import Bio from '../components/bio';
@@ -15,39 +16,45 @@ class BlogPostTemplate extends React.Component {
 		return (
 			<Layout location={this.props.location} title={siteTitle}>
 				<SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt} />
-				<article>
-					<header>
-						<h1
-							style={{
-								marginTop: rhythm(1),
-								marginBottom: 0
-							}}
-						>
-							{post.frontmatter.title}
-						</h1>
-						<p
-							style={{
-								...scale(-1 / 5),
-								display: `block`,
-								marginBottom: rhythm(1)
-							}}
-						>
-							{post.frontmatter.date}
-						</p>
-						<img src={post.frontmatter.url_photo} style={{ width: '100%' }} />
-						<img src="../../content/assets/mente.jpeg" alt="lola" />
-					</header>
-					<section dangerouslySetInnerHTML={{ __html: post.html }} />
-					<iframe width="100%" height="500" src={post.frontmatter.url_movie} />
-					<hr
-						style={{
-							marginBottom: rhythm(1)
-						}}
-					/>
-					<footer>
-						<Bio />
-					</footer>
-				</article>
+				<S.BlogPostWrapper>
+					<S.BlogPostContainer>
+						<S.BlogPostContent>
+							<header>
+								<S.BlogPostTitle
+									style={{
+										marginTop: rhythm(1),
+										marginBottom: 0
+									}}
+								>
+									{post.frontmatter.title}
+								</S.BlogPostTitle>
+								<S.BlogPostInfoPost>
+								<p
+									style={{
+										...scale(-1 / 5),
+										display: `block`,
+										marginBottom: rhythm(1)
+									}}
+								>
+									{post.frontmatter.date}
+								</p>
+								</S.BlogPostInfoPost>
+								
+								{/* <img src={post.frontmatter.url_photo} style={{ width: '100%' }} /> */}
+							</header>
+							<section dangerouslySetInnerHTML={{ __html: post.html }} />
+							<iframe width="100%" height="500" src={post.frontmatter.url_movie} />
+							<hr
+								style={{
+									marginBottom: rhythm(1)
+								}}
+							/>
+							<footer>
+								<Bio />
+							</footer>
+						</S.BlogPostContent>
+					</S.BlogPostContainer>
+				</S.BlogPostWrapper>
 
 				<nav>
 					<ul

@@ -1,7 +1,7 @@
 import React from 'react';
+import * as S from '../styles/styledBlog';
 import { Link, graphql } from 'gatsby';
 
-import Bio from '../components/bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm } from '../utils/typography';
@@ -15,34 +15,41 @@ class BlogIndex extends React.Component {
 		return (
 			<Layout location={this.props.location} title={siteTitle}>
 				<SEO title="Notícias" />
-				<Bio />
-				{posts.map(({ node }) => {
-					const title = node.frontmatter.title || node.fields.slug;
-					return (
-						<article key={node.fields.slug}>
-							<header>
-								<h2
-									style={{
-										marginBottom: rhythm(1 / 4)
-									}}
-								>
-									<Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-										{title}
-									</Link>
-								</h2>
-								<small>{node.frontmatter.date}</small>
-							</header>
-							<section>
-								<p
-									dangerouslySetInnerHTML={{
-										__html: node.frontmatter.description || node.excerpt
-									}}
-								/>
-								<img src={node.frontmatter.url_photo} alt="fotto do post" />
-							</section>
-						</article>
-					);
-				})}
+				<S.BlogBaseWrapper>
+					<S.BlogBaseContainer>
+						<S.BlogBaseContent>
+							{posts.map(({ node }) => {
+								const title = node.frontmatter.title || node.fields.slug;
+								return (
+									<S.BlogBasePostItem key={node.fields.slug}>
+										<header>
+											<S.BlogBaseDateBoxtext>{node.frontmatter.date}</S.BlogBaseDateBoxtext>
+											<S.BlogBaseTitleBoxtext
+												style={{
+													marginBottom: rhythm(1 / 4),
+													
+												}}
+											>
+												<Link style={{ boxShadow: `none`, color: '#B88A34' }} to={node.fields.slug}>
+													{title}
+												</Link>
+											</S.BlogBaseTitleBoxtext>
+											
+										</header>
+										<section>
+											<S.BlogBaseDescBoxtext
+												dangerouslySetInnerHTML={{
+													__html: node.frontmatter.description || node.excerpt
+												}}
+											/>
+									
+										</section>
+									</S.BlogBasePostItem>
+								);
+							})}		
+						</S.BlogBaseContent>
+					</S.BlogBaseContainer>
+				</S.BlogBaseWrapper>
 			</Layout>
 		);
 	}
