@@ -2,8 +2,9 @@ backend:
   name: github
   repo: octalbit/blog-lustosa-e-moura
 
-media_folder: content/assets
-public_folder: assets
+media_folder_relative: true 
+media_folder: images
+public_folder: content/assets
 
 collections:
   - name: blog
