@@ -26,15 +26,16 @@ class BlogIndex extends React.Component {
 											<S.BlogBaseDateBoxtext>{node.frontmatter.date}</S.BlogBaseDateBoxtext>
 											<S.BlogBaseTitleBoxtext
 												style={{
-													marginBottom: rhythm(1 / 4),
-													
+													marginBottom: rhythm(1 / 4)
 												}}
 											>
-												<Link style={{ boxShadow: `none`, color: '#B88A34' }} to={node.fields.slug}>
+												<Link
+													style={{ boxShadow: `none`, color: '#B88A34' }}
+													to={node.fields.slug}
+												>
 													{title}
 												</Link>
 											</S.BlogBaseTitleBoxtext>
-											
 										</header>
 										<section>
 											<S.BlogBaseDescBoxtext
@@ -42,11 +43,10 @@ class BlogIndex extends React.Component {
 													__html: node.frontmatter.description || node.excerpt
 												}}
 											/>
-									
 										</section>
 									</S.BlogBasePostItem>
 								);
-							})}		
+							})}
 						</S.BlogBaseContent>
 					</S.BlogBaseContainer>
 				</S.BlogBaseWrapper>
@@ -75,8 +75,6 @@ export const pageQuery = graphql`
 						date(formatString: "MMMM DD, YYYY")
 						title
 						description
-						url_movie
-						url_photo
 					}
 				}
 			}

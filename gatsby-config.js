@@ -4,8 +4,6 @@ module.exports = {
 		author: `Lustosa e Moura`,
 		description: `Somos focados na excelência do atendimento a cada cliente, proporcionando-lhe o conforto de estar sempre bem informado de suas causas e seguro de que a estas os sócios lhe emprestam alta competência técnica, desenvolvendo estratégias específicas, bem como atuam dentro de rigorosa ética.`,
 		siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-		url_movie: 'lslls',
-		url_photo: '',
 		social: {
 			twitter: `lustosaemoura`
 		}
