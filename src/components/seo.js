@@ -19,8 +19,6 @@ function SEO({ description, lang, meta, title }) {
 						title
 						description
 						author
-						url_movie
-						url_photo
 					}
 				}
 			}

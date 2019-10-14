@@ -36,8 +36,6 @@ class BlogPostTemplate extends React.Component {
 									</S.BlogPostInfoTextBox>
 									{/* <SocialLinks /> */}
 								</S.BlogPostInfoPost>
-
-								{/* <img src={post.frontmatter.url_photo} style={{ width: '100%' }} /> */}
 							</header>
 							<section dangerouslySetInnerHTML={{ __html: post.html }} />
 							<hr
