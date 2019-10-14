@@ -6,7 +6,7 @@ import Bio from '../components/bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
-import SocialLinks from '../components/SocialLinks'
+import SocialLinks from '../components/SocialLinks';
 
 class BlogPostTemplate extends React.Component {
 	render() {
@@ -32,17 +32,14 @@ class BlogPostTemplate extends React.Component {
 								<S.BlogPostInfoPost>
 									<S.BlogPostInfoTextBox>
 										<Bio />
-										<S.BlogPostInfoDate>
-											{post.frontmatter.date}
-										</S.BlogPostInfoDate>
+										<S.BlogPostInfoDate>{post.frontmatter.date}</S.BlogPostInfoDate>
 									</S.BlogPostInfoTextBox>
 									{/* <SocialLinks /> */}
 								</S.BlogPostInfoPost>
-								
+
 								{/* <img src={post.frontmatter.url_photo} style={{ width: '100%' }} /> */}
 							</header>
 							<section dangerouslySetInnerHTML={{ __html: post.html }} />
-							<iframe width="80%" height="500" src={post.frontmatter.url_movie} />
 							<hr
 								style={{
 									marginBottom: rhythm(1)
@@ -101,8 +98,6 @@ export const pageQuery = graphql`
 				title
 				date(formatString: "DD MMMM, YYYY")
 				description
-				url_movie
-				url_photo
 			}
 		}
 	}
