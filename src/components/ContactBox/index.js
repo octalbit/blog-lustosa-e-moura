@@ -57,7 +57,7 @@ function ContactBox() {
 				<S.ContactBoxContent>
 					<TitleBox style={{ color: '#fff' }} text="Contatos" />
 					{sucessMessage && (
-						<h2
+						<h4
 							style={{
 								color: 'red',
 								alignSelf: 'center',
@@ -68,7 +68,7 @@ function ContactBox() {
 							}}
 						>
 							Mensagem enviada com sucesso.
-						</h2>
+						</h4>
 					)}
 					<S.ContactBoxInfoBox>
 						<S.ContactBoxInfoItem>
