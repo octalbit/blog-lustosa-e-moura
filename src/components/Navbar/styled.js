@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from '../../styles/device';
+import device from '../../styles/device';
 
 export const NavbarWrapper = styled.nav`
 	width: 100%;
@@ -21,9 +21,9 @@ export const NavbarContent = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	@media ${device.mobile} {
-        padding: 0px 15px;
-    }
+		padding: 0px 15px;
+	}
 	@media ${device.tablet} {
-        padding: 0px 15px;
-    }
+		padding: 0px 15px;
+	}
 `;
