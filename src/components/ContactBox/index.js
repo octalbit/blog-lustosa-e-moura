@@ -8,12 +8,12 @@ function ContactBox() {
 	const [ name, setName ] = useState('');
 	const [ telefone, setTelefone ] = useState('');
 	const [ email, setEmail ] = useState('');
-	const [ assunto, setAssunto ] = useState('');
+	const [ areaAtuacao, setAreaAtuacao ] = useState('');
 	const [ message, setMessage ] = useState('');
 	const [ sucessMessage, setSucessMessage ] = useState(false);
 
 	function handleSubmit(event) {
-		if (email === '' || name === '' || telefone === '' || assunto === '' || message === '') {
+		if (email === '' || name === '' || telefone === '' || areaAtuacao === '' || message === '') {
 			alert('Preencha todos os campos ');
 		}
 		axios
@@ -22,7 +22,7 @@ function ContactBox() {
 				message,
 				telefone,
 				email,
-				assunto
+				areaAtuacao
 			})
 			.then((resp) => {
 				console.log(resp);
@@ -31,7 +31,7 @@ function ContactBox() {
 					setName('');
 					setEmail('');
 					setTelefone('');
-					setAssunto('');
+					setAreaAtuacao('');
 					setMessage('');
 				}
 			})
@@ -130,8 +130,8 @@ function ContactBox() {
 								/>
 								<S.ContactBoxFormOption
 									placeholder="Selecione o assunto"
-									value={assunto}
-									onChange={(e) => setAssunto(e.target.value)}
+									value={areaAtuacao}
+									onChange={(e) => setAreaAtuacao(e.target.value)}
 									required
 								>
 									<option value="" disabled selected>
