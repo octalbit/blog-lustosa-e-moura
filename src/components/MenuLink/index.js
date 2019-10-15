@@ -2,6 +2,7 @@ import React from 'react';
 
 import links from './content';
 import * as S from './styled';
+import Toggle from '../Toggle';
 
 const MenuLinks = () => (
 	<S.MenuLinksWrapper>
@@ -13,8 +14,9 @@ const MenuLinks = () => (
 					</S.MenuLinksLink>
 				</S.MenuLinksItem>
 			))}
-			<S.MenuLinksBtn>Consulta</S.MenuLinksBtn>
+			<S.MenuLinksBtn to={/contact/}>Consulta</S.MenuLinksBtn>
 		</S.MenuLinksList>
+		<Toggle />
 	</S.MenuLinksWrapper>
 );
 
