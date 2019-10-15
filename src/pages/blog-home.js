@@ -1,13 +1,13 @@
 import React from 'react';
 
 import * as S from './styled';
-import TitleBox from '../TitleBox';
-import { rhythm } from '../../utils/typography';
+import TitleBox from '../components/TitleBox';
+import { rhythm } from '../utils/typography';
 import { Link, graphql } from 'gatsby';
 
-class BlogHome extends React.Component {
+class BlogsHome extends React.Component {
 	render() {
-		const { data } = this.props;
+		const { data } = this.props || null;
 		const siteTitle = data.site.siteMetadata.title;
 		const posts = data.allMarkdownRemark.edges;
 
@@ -17,7 +17,7 @@ class BlogHome extends React.Component {
 					<S.BlogHomeContent>
 						<TitleBox text="Notícias" />
 						<S.BlogHomeBoxItems>
-							{posts.slice(0, 3).map(({ node }) => {
+							{posts.map(({ node }) => {
 								const title = node.frontmatter.title || node.fields.slug;
 								return (
 									<S.BlogHomeBoxItem key={node.fields.slug}>
@@ -53,4 +53,29 @@ class BlogHome extends React.Component {
 	}
 }
 
-export default BlogHome;
+export default BlogsHome;
+
+export const pageQuery = graphql`
+	query {
+		site {
+			siteMetadata {
+				title
+			}
+		}
+		allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+			edges {
+				node {
+					excerpt
+					fields {
+						slug
+					}
+					frontmatter {
+						date(formatString: "MMMM DD, YYYY")
+						title
+						description
+					}
+				}
+			}
+		}
+	}
+`;

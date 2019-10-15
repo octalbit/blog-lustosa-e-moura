@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { Link } from 'gatsby'
+import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 export const ContactBoxWrapper = styled.section`
 	width: 100%;
@@ -25,7 +25,7 @@ export const ContactBoxInfoBox = styled.div`
 export const ContactBoxInfoItem = styled.div`
 	flex: 1 1 300px;
 	border: 4px solid #171841;
-	margin: 10px 10px; 
+	margin: 10px 10px;
 `;
 export const ContactBoxInfoAndress = styled.p`
 	color: #fff;
@@ -33,7 +33,7 @@ export const ContactBoxInfoAndress = styled.p`
 	line-height: 1.4rem;
 `;
 export const ContactBoxInfoTel = styled.p`
-	color: #B88A34;
+	color: #b88a34;
 	margin: 15px 20px;
 `;
 export const ContactBoxInfoTelLink = styled(Link)`
@@ -44,7 +44,7 @@ export const ContactBoxInfoTelLink = styled(Link)`
 	}
 `;
 export const ContactBoxInfoMail = styled.p`
-	color: #B88A34;
+	color: #b88a34;
 	margin: 15px 20px;
 `;
 export const ContactBoxInfoMailLink = styled(Link)`
@@ -74,7 +74,7 @@ export const ContactBoxFormInput = styled.input`
 	color: #fff;
 	font-weight: 500;
 `;
-export const ContactBoxFormOption = styled.option`
+export const ContactBoxFormOption = styled.select`
 	width: 100%;
 	height: 50px;
 	padding: 10px;
@@ -97,21 +97,21 @@ export const ContactBoxFormTextArea = styled.textarea`
 	font-weight: 500;
 `;
 export const ContactBoxFormBtn = styled.button`
-    width: 150px;
-    height: 40px;
-    background-color: #B88A34;
-    transition: 0.2s;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 150px;
+	height: 40px;
+	background-color: #b88a34;
+	transition: 0.2s;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 0px;
 
-    &:hover {
+	&:hover {
 		background-color: #ffff;
-        color: #111231;
-    }
+		color: #111231;
+	}
 `;
