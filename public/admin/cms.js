@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "1dcc1cad1549b570ebdb";
+/******/ 	var hotCurrentHash = "bdaca7c187736ad788d7";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -821,7 +821,7 @@ module.exports = _interopRequireDefault;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {(function(){var enterModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.enterModule:undefined;enterModule&&enterModule(module);})();var __signature__=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default.signature:function(a){return a;};var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _netlifyIdentityWidget=_interopRequireDefault(__webpack_require__(/*! netlify-identity-widget */ "./node_modules/netlify-identity-widget/build/netlify-identity.js"));/* global __PATH_PREFIX__ CMS_PUBLIC_PATH */window.netlifyIdentity=_netlifyIdentityWidget["default"];var addLoginListener=function addLoginListener(){return _netlifyIdentityWidget["default"].on("login",function(){document.location.href=""+"/"+"admin"+"/";});};_netlifyIdentityWidget["default"].on("init",function(user){if(!user){addLoginListener();}else{_netlifyIdentityWidget["default"].on("logout",function(){addLoginListener();});}});_netlifyIdentityWidget["default"].init();;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyIdentityWidget,"_netlifyIdentityWidget","/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");reactHotLoader.register(addLoginListener,"addLoginListener","/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
+/* WEBPACK VAR INJECTION */(function(module) {(function(){var enterModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.enterModule:undefined;enterModule&&enterModule(module);})();var __signature__=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default.signature:function(a){return a;};var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _netlifyIdentityWidget=_interopRequireDefault(__webpack_require__(/*! netlify-identity-widget */ "./node_modules/netlify-identity-widget/build/netlify-identity.js"));/* global __PATH_PREFIX__ CMS_PUBLIC_PATH */window.netlifyIdentity=_netlifyIdentityWidget["default"];var addLoginListener=function addLoginListener(){return _netlifyIdentityWidget["default"].on("login",function(){document.location.href=""+"/"+"admin"+"/";});};_netlifyIdentityWidget["default"].on("init",function(user){if(!user){addLoginListener();}else{_netlifyIdentityWidget["default"].on("logout",function(){addLoginListener();});}});_netlifyIdentityWidget["default"].init();;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyIdentityWidget,"_netlifyIdentityWidget","/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");reactHotLoader.register(addLoginListener,"addLoginListener","/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
@@ -838,7 +838,7 @@ module.exports = _interopRequireDefault;
  * Load Netlify CMS automatically if `window.CMS_MANUAL_INIT` is set.
  */if(!window.CMS_MANUAL_INIT){_netlifyCmsApp["default"].init();}else{console.log("`window.CMS_MANUAL_INIT` flag set, skipping automatic initialization.'");}/**
  * The stylesheet output from the modules at `modulePath` will be at `cms.css`.
- */_netlifyCmsApp["default"].registerPreviewStyle("cms.css");;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyCmsApp,"_netlifyCmsApp","/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
+ */_netlifyCmsApp["default"].registerPreviewStyle("cms.css");;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyCmsApp,"_netlifyCmsApp","/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
@@ -1891,7 +1891,7 @@ module.exports = ReactPropTypesSecret;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.10.0
+/** @license React v16.10.1
  * react-dom.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -19810,13 +19810,10 @@ function skipPastDehydratedSuspenseInstance(fiber) {
   var suspenseState = fiber.memoizedState;
   var suspenseInstance = suspenseState !== null ? suspenseState.dehydrated : null;
 
-  (function () {
-    if (!suspenseInstance) {
-      {
-        throw ReactError(Error("Expected to have a hydrated suspense instance. This error is likely caused by a bug in React. Please file an issue."));
-      }
-    }
-  })();
+  if (suspenseInstance === null) {
+    // This Suspense boundary was hydrated without a match.
+    return nextHydratableInstance;
+  }
 
   return getNextHydratableInstanceAfterSuspenseInstance(suspenseInstance);
 }
@@ -29148,7 +29145,7 @@ implementation) {
 
 // TODO: this is special because it gets imported during build.
 
-var ReactVersion = '16.10.0';
+var ReactVersion = '16.10.1';
 
 // TODO: This type is shared between the reconciler and ReactDOM, but will
 // eventually be lifted out to the renderer.
@@ -29821,7 +29818,7 @@ module.exports = reactDom;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/cjs/react-dom.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/cjs/react-dom.development.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/cjs/react-dom.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/cjs/react-dom.development.js"); } }(); 
 
 /***/ }),
 
@@ -29867,7 +29864,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "./node_modules/react-dom/cjs/react-dom.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/index.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/index.js"); } }(); 
 
 /***/ }),
 
@@ -29879,7 +29876,7 @@ if (false) {} else {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v0.16.0
+/** @license React v0.16.1
  * scheduler-tracing.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -30309,7 +30306,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); } }(); 
 
 /***/ }),
 
@@ -30321,7 +30318,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v0.16.0
+/** @license React v0.16.1
  * scheduler.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -31344,7 +31341,7 @@ exports.unstable_Profiling = unstable_Profiling;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); } }(); 
 
 /***/ }),
 
@@ -31362,7 +31359,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/index.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/index.js"); } }(); 
 
 /***/ }),
 
@@ -31380,7 +31377,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/tracing.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/tracing.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/tracing.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/react-dom/node_modules/scheduler/tracing.js"); } }(); 
 
 /***/ }),
 
@@ -31392,7 +31389,7 @@ if (false) {} else {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.10.0
+/** @license React v16.10.1
  * react.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -31414,7 +31411,7 @@ var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./nod
 
 // TODO: this is special because it gets imported during build.
 
-var ReactVersion = '16.10.0';
+var ReactVersion = '16.10.1';
 
 // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.
@@ -33785,8 +33782,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-module.exports = __webpack_require__(/*! /home/rafael/blog-lustosa/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+__webpack_require__(/*! /home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+module.exports = __webpack_require__(/*! /home/jackson/Documentos/curso-gatsby/blog-lustosa-e-moura/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 
 
 /***/ })

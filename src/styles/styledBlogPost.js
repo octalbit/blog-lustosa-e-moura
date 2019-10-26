@@ -31,3 +31,9 @@ export const BlogPostInfoTextBox = styled.div`
 export const BlogPostInfoDate = styled.p`
     margin-top: 10px;
 `;
+export const BlogPostContentPost = styled.section`
+    max-width: 800px;
+    margin: auto;
+    padding: 25px 0px;
+
+`;

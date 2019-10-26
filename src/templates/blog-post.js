@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
 									{/* <SocialLinks /> */}
 								</S.BlogPostInfoPost>
 							</header>
-							<section dangerouslySetInnerHTML={{ __html: post.html }} />
+							<S.BlogPostContentPost dangerouslySetInnerHTML={{ __html: post.html }} />
 							<hr
 								style={{
 									marginBottom: rhythm(1)
