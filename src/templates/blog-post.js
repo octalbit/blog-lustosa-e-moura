@@ -1,4 +1,5 @@
 import React from 'react';
+import './blogpost.css'
 import * as S from '../styles/styledBlogPost';
 import { Link, graphql } from 'gatsby';
 
@@ -47,7 +48,7 @@ class BlogPostTemplate extends React.Component {
 					</S.BlogPostContainer>
 				</S.BlogPostWrapper>
 
-				<nav>
+				<S.BlogPostNextPrev>
 					<ul
 						style={{
 							display: `flex`,
@@ -60,19 +61,19 @@ class BlogPostTemplate extends React.Component {
 						<li>
 							{previous && (
 								<Link to={previous.fields.slug} rel="prev">
-									← {previous.frontmatter.title}
+									← Ultima notícia
 								</Link>
 							)}
 						</li>
 						<li>
 							{next && (
 								<Link to={next.fields.slug} rel="next">
-									{next.frontmatter.title} →
+									Proxima notícia →
 								</Link>
 							)}
 						</li>
 					</ul>
-				</nav>
+				</S.BlogPostNextPrev>
 			</Layout>
 		);
 	}

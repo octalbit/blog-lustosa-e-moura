@@ -35,5 +35,11 @@ export const BlogPostContentPost = styled.section`
     max-width: 800px;
     margin: auto;
     padding: 25px 0px;
-
+    font-size: 20px;
+    line-height: 1.6rem;
 `;
+export const BlogPostNextPrev = styled.section`
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 10px;
+`
