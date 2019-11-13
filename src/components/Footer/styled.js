@@ -20,15 +20,15 @@ export const FooterTextCopy = styled.p`
 	color: #333;
 	font-weight: 300;
 	text-transform: uppercase;
-	@media ${device.mobile} {
+	@media (max-width: 768px) {
 		text-align: center;
 		padding: 30px 0px 10px 0px;
-	}
+    }
 `;
 export const FooterCorpLink = styled(Link)`
     text-decoration: none;
-    @media ${device.mobile} {
-        padding: 0px 0px 30px 0px;
+	@media (max-width: 768px) {
+		padding: 0px 0px 30px 0px;
         margin: auto;
     }
 `;

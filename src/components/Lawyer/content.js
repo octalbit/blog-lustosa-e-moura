@@ -1,9 +1,9 @@
-import Vic from '../../images/vic.png'
-import Cli from '../../images/cli.png'
-import Bet from '../../images/bet.png'
-import Ric from '../../images/ric.png'
-import Dhy from '../../images/dhy.png'
-import Shy from '../../images/shy.png'
+import Vic from '../../images/vic.jpg'
+import Cli from '../../images/cli.jpg'
+import Bet from '../../images/bet.jpg'
+import Ric from '../../images/ric.jpg'
+import Dhy from '../../images/dhy.jpg'
+import Shy from '../../images/shy.jpg'
 const law = [
     {
         nome: 'VICENTE LUSTOSA',

@@ -17,10 +17,9 @@ export const AboutContent = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding: 50px 0px;
-
-	@media ${device.mobile} {
+	@media (max-width: 768px) {
 		flex-direction: column;
-	}
+    }
 `;
 export const AboutBoxText = styled.div`
 	width: 100%;

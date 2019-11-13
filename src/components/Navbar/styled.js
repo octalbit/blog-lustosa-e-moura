@@ -20,10 +20,7 @@ export const NavbarContent = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	@media ${device.mobile} {
-		padding: 0px 15px;
-	}
-	@media ${device.tablet} {
-		padding: 0px 15px;
-	}
+	@media (max-width: 768px) {
+        padding: 0px 15px;
+    }
 `;

@@ -2,7 +2,11 @@ import styled from 'styled-components';
 import device from '../../styles/device';
 import { Link } from 'gatsby';
 
-export const MenuLinksWrapper = styled.div`@media ${device.mobile} {display: none;}`;
+export const MenuLinksWrapper = styled.div`
+    @media (max-width: 768px) {
+        display: none;
+    }
+    `;
 export const MenuLinksList = styled.ul`
 	display: flex;
 	align-items: center;
