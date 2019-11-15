@@ -3,7 +3,7 @@ import React from 'react'
 import * as S from './styled'
 import MenuLink from '../MenuLink'
 import Brand from '../Brand'
-
+import Toggle from '../Toggle'
 
 const Navbar = () => (
     <S.NavbarWrapper>
@@ -11,7 +11,7 @@ const Navbar = () => (
             <S.NavbarContent>
                 <Brand />
                 <MenuLink />
-                
+                <Toggle />
             </S.NavbarContent>
         </S.NavbarContainer>
     </S.NavbarWrapper>
