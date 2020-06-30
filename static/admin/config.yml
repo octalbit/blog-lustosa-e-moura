@@ -12,6 +12,8 @@ collections:
     create: true
     fields:
       - { name: path, label: Path }
+      - { name: movieOne, label: Vídeo 01 }
+      - { name: movieTwo, label: Vídeo 02 }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
