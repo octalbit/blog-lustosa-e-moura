@@ -42,11 +42,9 @@ class BlogPostTemplate extends React.Component {
                   </S.BlogPostInfoTextBox>
                   {/* <SocialLinks /> */}
                   <div>
-                    <iframe
-                      width="100%"
-                      height="400"
+                    <S.BlogPostVideo
                       src={post.frontmatter.movieOne}
-                    ></iframe>
+                    ></S.BlogPostVideo>
                   </div>
                 </S.BlogPostInfoPost>
               </header>
@@ -58,11 +56,9 @@ class BlogPostTemplate extends React.Component {
                   marginBottom: rhythm(1),
                 }}
               />
-              <iframe
-                width="100%"
-                height="400"
+              <S.BlogPostVideo
                 src={post.frontmatter.movieTwo}
-              ></iframe>
+              ></S.BlogPostVideo>
             </S.BlogPostContent>
           </S.BlogPostContainer>
         </S.BlogPostWrapper>
@@ -77,7 +73,7 @@ class BlogPostTemplate extends React.Component {
               padding: 0,
             }}
           >
-            <li>
+            <li className="">
               {previous && (
                 <Link to={previous.fields.slug} rel="prev">
                   ← Ultima notícia

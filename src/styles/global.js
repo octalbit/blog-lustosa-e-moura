@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -34,8 +34,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol, ul , li{
+	list-style: none !important;
 }
 blockquote, q {
 	quotes: none;
@@ -53,6 +53,10 @@ table {
 * {
     box-sizing: border-box;
 }
+a {
+	text-decoration: none !important;
+}
+
 body {
     line-height: 1;
     font-size: 100%;
@@ -62,5 +66,5 @@ img {
     max-width: 100%;
 }
 
-`;
-export default GlobalStyles;
+`
+export default GlobalStyles
