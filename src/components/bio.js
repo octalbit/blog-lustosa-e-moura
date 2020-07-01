@@ -35,10 +35,10 @@ const Bio = () => {
 	const { author, social } = data.site.siteMetadata;
 	return (
 		<div>
-			<p style={{ fontWeight: '600'}}>
-				Escrito por <strong>{author}</strong> advocacia e consultoria.
+			<small style={{ padding: '0px 15px 0px 15px'}}>
+				Escrito por <strong  style={{ fontWeight: '600'}}>{author} advocacia e consultoria. </strong>
 				{` `}
-			</p>
+			</small>
 		</div>
 	);
 };

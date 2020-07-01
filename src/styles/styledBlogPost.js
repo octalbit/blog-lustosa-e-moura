@@ -16,8 +16,8 @@ export const BlogPostContent = styled.div`
 export const BlogPostTitle = styled.h2`
   font-size: 45px;
   font-weight: 800;
-  text-align: center;
   color: #b88a34;
+  padding: 0px 15px 0px 15px;
 `
 export const BlogPostInfoPost = styled.div`
   max-width: 800px;
@@ -26,7 +26,7 @@ export const BlogPostInfoPost = styled.div`
 `
 export const BlogPostInfoTextBox = styled.div``
 export const BlogPostInfoDate = styled.p`
-  padding: 8px 15px 8px 15px;
+  padding: 0px 15px 0px 15px;
 `
 export const BlogPostVideo = styled.iframe`
   width: 100%;
@@ -34,6 +34,9 @@ export const BlogPostVideo = styled.iframe`
   height: 450px;
 `
 export const BlogPostContentPost = styled.section`
+  @media (max-width: 768px) {
+    padding: 0px 0px;
+  }
   margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem;

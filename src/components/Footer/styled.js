@@ -15,6 +15,11 @@ export const FooterContent = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+    @media (max-width: 768px) {
+		display: block;
+        text-align: center;
+		padding: 15px 0px 10px 0px;
+    }
 `;
 export const FooterTextCopy = styled.p`
 	color: #333;
@@ -22,7 +27,7 @@ export const FooterTextCopy = styled.p`
 	text-transform: uppercase;
 	@media (max-width: 768px) {
 		text-align: center;
-		padding: 30px 0px 10px 0px;
+		padding: 15px 0px 10px 0px;
     }
 `;
 export const FooterCorpLink = styled(Link)`

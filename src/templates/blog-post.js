@@ -67,6 +67,7 @@ class BlogPostTemplate extends React.Component {
           <ul
             style={{
               display: `flex`,
+              width: '100%',
               flexWrap: `wrap`,
               justifyContent: `space-between`,
               listStyle: `none`,

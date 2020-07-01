@@ -13,7 +13,7 @@ export const BlogBaseContent = styled.div`
   height: 100%;
   padding: 100px 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 10px;
 `
 export const BlogBasePostItem = styled.article`
@@ -32,7 +32,7 @@ export const BlogBaseTitleBoxtext = styled.h3`
   color: #b88a34;
   font-size: 20px;
   line-height: 1.4rem;
-  padding: 0px 0px 8px 0px;
+  padding: 0px 0px 4px 0px;
   font-weight: 800;
 `
 export const BlogBaseDescBoxtext = styled.p`

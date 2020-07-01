@@ -37,13 +37,12 @@ export const ToggleBox = styled.div`
 `;
 
 export const ToggleLinksList = styled.ul`
-	display: block;
+  display: block;
   width: 100%;
 `;
 
 export const ToggleLinksItem = styled.li`
 	padding: 1.2rem 0px;
-
 	.active {
 		color: #b88a34;
 	}
@@ -57,7 +56,6 @@ export const ToggleLinksLink = styled(Link)`
     text-transform: uppercase;
     font-weight: 600;
     transition: color 0.2s;
-
     &:hover {
         color: #B88A34;
     }

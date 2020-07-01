@@ -6,7 +6,7 @@ export const NavbarWrapper = styled.nav`
   height: 70px;
   position: fixed;
   background-color: #fff;
-  box-shadow: 1px 1px 5px rgba(25, 25, 25, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
   z-index: 999;
 `
 export const NavbarContainer = styled.div`
