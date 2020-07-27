@@ -5,11 +5,9 @@ movieTwo: Sem vídeo
 date: 2020-07-27T20:12:08.030Z
 title: Achado não é roubado? O crime de apropriação de coisa achada
 ---
-
-
 Realmente, achado não é roubado, mas não devolver o objeto encontrado é crime de qualquer maneira. Este crime chama-se “apropriação de coisa achada”, cuja pena é de detenção de um mês a um ano ou multa, de acordo com o art. 169 do Código Penal.
 
-1) Achado não é ROUBADO
+1. Achado não é ROUBADO
 
 Realmente, achado não é roubado, mas não devolver o objeto encontrado é crime de qualquer maneira. Este crime chama-se “apropriação de coisa achada”, cuja pena é de detenção de um mês a um ano ou multa, de acordo com o art. 169 do Código Penal. Veja:
 
@@ -41,7 +39,7 @@ Portanto, quando a coisa é encontrada não se adquire a propriedade devendo-se 
 
 Ou seja, a obrigação de devolver qualquer objeto encontrado na rua ao seu verdadeiro dono não é só um dever moral, é também uma questão jurídica. Da próxima vez que encontrar um objeto perdido, antes de apropriar-se dele, caso seu senso de ética seja falho e insuficiente para fazê-lo devolver o objeto encontrado, pense que esta prática é crime e pode vir a causar-lhe problemas.
 
-2) Encontrei um objeto perdido, o que fazer?
+2. Encontrei um objeto perdido, o que fazer?
 
 Primeiramente, encontrar um objeto não é crime. Crime é mantê-lo consigo sem intenção de devolver.
 
@@ -53,8 +51,6 @@ Ao encontrar objeto alheio perdido e não conhecendo o proprietário, deve-se en
 
 Após os procedimentos judiciários, caso o proprietário da coisa aparecer, deverá provar que é o dono da coisa. Se o juiz ficar convencido da titularidade mandará entregar a coisa ao proprietário. Mas, se o proprietário do objeto não aparecer, a coisa será avaliada e alienada em hasta pública ("leilão"). Vendido o bem, serão deduzidas as despesas, inclusive com a indenização daquele que achou o bem, e o restante revertido em favor do Município onde o objeto perdido foi encontrado. Não havendo a venda do bem em hasta pública aquele que encontrou a coisa poderá pedir sua adjudicação, ou seja, a propriedade do bem.
 
-Fonte: http://alestrazzi.jusbrasil.com.br/artigos/115242068/achado-naoeroubado
+Fonte: http://alestrazzi.jusbrasil.com.br/artigos/115242068/achado-naoeroubado
 
-
-
-![Celular achado.](/../assets/achado-nao-e-roubado1463153288.webp "Novo")
+![Celular achado.](/../assets/achado-nao-e-roubado1463153288.webp "Imagem celular")
