@@ -42,9 +42,10 @@ class BlogPostTemplate extends React.Component {
                   </S.BlogPostInfoTextBox>
                   {/* <SocialLinks /> */}
                   <div>
-                    <S.BlogPostVideo
-                      src={post.frontmatter.movieOne}
-                    ></S.BlogPostVideo>
+                    {post.frontmatter.movieOne.lenght > 16 && (
+                      <S.BlogPostVideo src={post.frontmatter.movieOne}
+                      ></S.BlogPostVideo>
+                    )}
                   </div>
                 </S.BlogPostInfoPost>
               </header>
@@ -56,9 +57,10 @@ class BlogPostTemplate extends React.Component {
                   marginBottom: rhythm(1),
                 }}
               />
-              <S.BlogPostVideo
-                src={post.frontmatter.movieTwo}
-              ></S.BlogPostVideo>
+              {post.frontmatter.movieTwo.length > 16 && (
+                <S.BlogPostVideo src={post.frontmatter.movieTwo}
+                ></S.BlogPostVideo>
+              )}
             </S.BlogPostContent>
           </S.BlogPostContainer>
         </S.BlogPostWrapper>
