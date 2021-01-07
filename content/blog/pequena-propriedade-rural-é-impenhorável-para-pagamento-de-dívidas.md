@@ -2,7 +2,7 @@
 path: 07/01/2021
 movieOne: Sem Video
 movieTwo: Sem Vídeo
-date: 2021-07-01T16:43:00.000Z
+date: 2021-01-07T16:43:00.000Z
 title: Pequena propriedade rural é impenhorável para pagamento de dívidas
 ---
 O Supremo Tribunal Federal (STF) decidiu que pequenas propriedades rurais, desde que trabalhadas pela família, não podem ser penhoradas para pagamento de dívidas decorrentes da atividade produtiva. A decisão, por maioria de votos, foi tomada na sessão virtual encerrada em 18/12, no julgamento do Recurso Extraordinário com Agravo (ARE) 1038507, com repercussão geral reconhecida (Tema 961). 
