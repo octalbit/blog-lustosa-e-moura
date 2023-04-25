@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
                     <section>
                       <S.BlogBaseDescBoxtext
                         dangerouslySetInnerHTML={{
-                          __html: node.frontmatter.description || node.excerpt,
+                          __html: node.excerpt,
                         }}
                       />
                     </section>
@@ -76,7 +76,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMM, YYYY")
             title
-            description
             movieOne
             movieTwo
           }

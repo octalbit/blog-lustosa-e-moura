@@ -26,6 +26,7 @@ export const ContactBoxInfoItem = styled.div`
 	flex: 1 1 300px;
 	border: 4px solid #171841;
 	margin: 10px 10px;
+	padding: 8px;
 `;
 export const ContactBoxInfoAndress = styled.p`
 	color: #fff;
@@ -36,7 +37,7 @@ export const ContactBoxInfoTel = styled.p`
 	color: #b88a34;
 	margin: 15px 20px;
 `;
-export const ContactBoxInfoTelLink = styled(Link)`
+export const ContactBoxInfoTelLink = styled.a`
 	color: #fff;
 
 	&:hover {

@@ -9,7 +9,7 @@ const Area = () => (
 	<S.AreaWrapper>
 		<S.AreaContainer>
 			<S.AreaContent>
-				<TitleBox text="Nossas áreas de atuação" />
+				<TitleBox text="área de atuação" />
 				<S.AreaBoxItems>
 					{areas.map((id, i) => (
 						<S.AreaBoxItem key={i}>

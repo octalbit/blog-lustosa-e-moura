@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Lustosa e Moura - Advocacia e Consultoria Jurídica`,
-    author: `Lustosa e Moura`,
+    title: `Vicente Lustosa - Advocacia e Consultoria Jurídica`,
+    author: `Vicente Lustosa`,
     description: `Somos focados na excelência do atendimento a cada cliente, proporcionando-lhe o conforto de estar sempre bem informado de suas causas e seguro de que a estas os sócios lhe emprestam alta competência técnica, desenvolvendo estratégias específicas, bem como atuam dentro de rigorosa ética.`,
     movieOne: "movie 01",
     movieTwo: "movie 02",

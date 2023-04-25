@@ -19,15 +19,15 @@ const contact = () => (
 								Missão
 							</S.StyledAboutItemTitle>
 							<S.StyledAboutItemText>
-							Prestar serviços jurídicos com excelência, oferecendo soluções inovadoras para obtenção de resultados expressivos que garantam a satisfação de seus clientes.
+								Entregar aos nossos clientes, de forma satisfatória e técnica acompanhamento jurídico-previdenciário, sempre procurando os melhores resultados, exercendo com zelo o seu direito de exercício da cidadania em busca da dignidade da pessoa humana.
 							</S.StyledAboutItemText>
 						</S.StyledAboutItem>
 						<S.StyledAboutItem>
 							<S.StyledAboutItemTitle>
-							Visão
+								Visão
 							</S.StyledAboutItemTitle>
 							<S.StyledAboutItemText>
-							Manter-se como referência nos segmentos em que atua, sendo sempre reconhecida pelos seus clientes como uma empresa moderna, inovadora e eficiente.
+								Buscar garantir a credibilidade e o reconhecimento dos clientes  no Piauí, Maranhão e outros estados do Brasil.
 							</S.StyledAboutItemText>
 						</S.StyledAboutItem>
 						<S.StyledAboutItem>
@@ -35,7 +35,15 @@ const contact = () => (
 							Valores
 							</S.StyledAboutItemTitle>
 							<S.StyledAboutItemText>
-							Integridade e Ética. Atuar de forma integra e ética na condução dos negócios e na relação com seus colaboradores.
+								<ul>
+									<li>•	Agilidade</li>
+									<li>•	Transparência</li>
+									<li>•	Qualidade no atendimento aos clientes; </li> 
+									<li>•	Comprometimento; </li> 
+									<li>•	Ética </li> 
+									<li>•	Respeito aos clientes; </li> 
+									<li>•	Responsabilidade social;</li> 
+								</ul>
 							</S.StyledAboutItemText>
 						</S.StyledAboutItem>
 					</S.StyledAboutContent>
