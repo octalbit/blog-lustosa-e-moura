@@ -1,15 +1,15 @@
 const links = [
     {
       label: "Facebook",
-      url: `https://willianjusten.com.br/`,
+      url: `https://www.facebook.com/vicente.lustosa.50?mibextid=ZbWKwL`,
     },
     {
       label: "Twitter",
-      url: `https://willianjusten.com.br/`,
+      url: `https://twitter.com/lustosa_50`,
     },
     {
       label: "Instagram",
-      url: `https://willianjusten.com.br/`,
+      url: `https://instagram.com/vicente.lustosa.50?igshid=ZDdkNTZiNTM=`,
     },
   ]
   

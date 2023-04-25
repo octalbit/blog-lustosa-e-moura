@@ -63,4 +63,4 @@ export const AboutImgBox = styled.div`
 export const AboutImg = styled.img`
 	padding-top: 20px;
 	max-width: 350px;
-`;
+`

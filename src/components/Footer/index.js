@@ -8,7 +8,7 @@ const Footer = () => (
         <S.FooterContainer>
             <S.FooterContent>
                 <S.FooterTextCopy>
-                    © {new Date().getFullYear()} Lustosa e Moura - Advocacia e Consultorio Juridico.
+                    © {new Date().getFullYear()} Vicente Lustosa - Advocacia e Consultoria Juridica.
                 </S.FooterTextCopy>
                 <S.FooterCorpLink>
                     <S.FooterCorpBox src={BrandFooter} />

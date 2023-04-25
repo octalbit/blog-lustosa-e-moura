@@ -8,10 +8,6 @@ const links = [
 		url: '/about/'
 	},
 	{
-		label: 'Área de Atuação',
-		url: '/area/'
-	},
-	{
 		label: 'Notícias',
 		url: '/blog/'
 	},

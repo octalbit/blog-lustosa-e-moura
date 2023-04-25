@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import TitleBox from '../TitleBox';
 import * as S from './styled';
+import SocialLinks from '../SocialLinks';
 
 function ContactBox() {
 	const [ name, setName ] = useState('');
@@ -73,36 +74,26 @@ function ContactBox() {
 					<S.ContactBoxInfoBox>
 						<S.ContactBoxInfoItem>
 							<S.ContactBoxInfoAndress>
-								Avenida Desembargador Amaral, n° 221, Centro, Amarante - PI, 64400-000
+								Rua Regeneração Número 23, Bairro Balão, Amarante Piauí, CEP 64400000
 							</S.ContactBoxInfoAndress>
 							<S.ContactBoxInfoTel>
 								Telefone:{' '}
 								<S.ContactBoxInfoTelLink
-									href="https://api.whatsapp.com/send?1=pt_BR&phone=5586994694942"
-									target="blanck"
+									href="https://api.whatsapp.com/send?1=pt_BR&phone=5586994471629"
+									target="_blank"
 								>
-									(86) 9 9851-3970
+									(86) 9 9447-1629
 								</S.ContactBoxInfoTelLink>
-							</S.ContactBoxInfoTel>
-							<S.ContactBoxInfoMail>
-								E-mail: <S.ContactBoxInfoMailLink>vicenteemoura@gmail.com</S.ContactBoxInfoMailLink>
-							</S.ContactBoxInfoMail>
-						</S.ContactBoxInfoItem>
-						<S.ContactBoxInfoItem>
-							<S.ContactBoxInfoAndress>
-								Avenida Alberto Leal Nunes, n° 396, Centro, Regeneração - PI, 64490-000
-							</S.ContactBoxInfoAndress>
-							<S.ContactBoxInfoTel>
-								Telefone:{' '}
+								{`  -  `}
 								<S.ContactBoxInfoTelLink
-									href="https://api.whatsapp.com/send?1=pt_BR&phone=5586994694942"
-									target="blanck"
+									href="https://api.whatsapp.com/send?1=pt_BR&phone=5586999187066"
+									target="_blank"
 								>
-									(86) 9 9469-4942
+									(86) 9 9918-7066
 								</S.ContactBoxInfoTelLink>
 							</S.ContactBoxInfoTel>
 							<S.ContactBoxInfoMail>
-								E-mail: <S.ContactBoxInfoMailLink>vicenteemoura@gmail.com</S.ContactBoxInfoMailLink>
+								Email: <S.ContactBoxInfoMailLink>drlustosapereira@gmail.com</S.ContactBoxInfoMailLink>
 							</S.ContactBoxInfoMail>
 						</S.ContactBoxInfoItem>
 						<S.ContactBoxFormBox>
@@ -153,6 +144,7 @@ function ContactBox() {
 							</S.ContactBoxForm>
 						</S.ContactBoxFormBox>
 					</S.ContactBoxInfoBox>
+					<SocialLinks color="white"/>
 				</S.ContactBoxContent>
 			</S.ContactBoxContainer>
 		</S.ContactBoxWrapper>

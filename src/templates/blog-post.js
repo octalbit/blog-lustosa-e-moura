@@ -6,7 +6,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 import SocialLinks from "../components/SocialLinks"
 
 class BlogPostTemplate extends React.Component {
@@ -40,7 +40,7 @@ class BlogPostTemplate extends React.Component {
                       {post.frontmatter.date}
                     </S.BlogPostInfoDate>
                   </S.BlogPostInfoTextBox>
-                  {/* <SocialLinks /> */}
+                  <SocialLinks />
                   <div>
                     {post.frontmatter.movieOne.lenght > 16 && (
                       <S.BlogPostVideo src={post.frontmatter.movieOne}
@@ -114,7 +114,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "DD MMMM, YYYY")
-        description
         movieOne
         movieTwo
       }

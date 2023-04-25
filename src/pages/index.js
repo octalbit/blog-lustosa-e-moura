@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -7,27 +7,22 @@ import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import Area from "../components/Area"
-import Law from "../components/Lawyer"
 import BlogHome from "../components/BlogHome"
 import ContactBox from "../components/ContactBox"
 
-class IndexPage extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-    return (
-      <Layout>
-        <SEO title="Home" />
-        <Hero />
-        <About />
-        <Area />
-        <Law />
-        <BlogHome data={data} />
-        <ContactBox />
-      </Layout>
-    )
-  }
+const IndexPage = props => {
+  const { data } = props
+
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Hero />
+      <About />
+      <Area />
+      <BlogHome data={data} />
+      <ContactBox />
+    </Layout>
+  )
 }
 
 export default IndexPage
@@ -49,7 +44,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
             movieOne
             movieTwo
           }

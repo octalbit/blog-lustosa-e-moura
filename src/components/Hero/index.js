@@ -8,8 +8,8 @@ const Hero = () => (
 			<S.HeroContent>
 				<S.HeroBannerBox>
 					<S.HeroBannerTitle>
-						Nós somos a <S.HeroBannerColor>Lustosa</S.HeroBannerColor> e{' '}
-						<S.HeroBannerColor>Moura</S.HeroBannerColor>
+						<S.HeroBannerColor>Vicente</S.HeroBannerColor>
+						<S.HeroBannerColor> Lustosa</S.HeroBannerColor>
 					</S.HeroBannerTitle>
 					<S.HeroBannerSubtitle>
 						Somos focados na excelência do atendimento a cada cliente, proporcionando-lhe o conforto de
