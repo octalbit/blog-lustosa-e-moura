@@ -43,7 +43,8 @@ class BlogPostTemplate extends React.Component {
                   <SocialLinks />
                   <div>
                     {post.frontmatter.movieOne.lenght > 16 && (
-                      <S.BlogPostVideo src={post.frontmatter.movieOne}
+                      <S.BlogPostVideo
+                        src={post.frontmatter.movieOne}
                       ></S.BlogPostVideo>
                     )}
                   </div>
@@ -58,7 +59,8 @@ class BlogPostTemplate extends React.Component {
                 }}
               />
               {post.frontmatter.movieTwo.length > 16 && (
-                <S.BlogPostVideo src={post.frontmatter.movieTwo}
+                <S.BlogPostVideo
+                  src={post.frontmatter.movieTwo}
                 ></S.BlogPostVideo>
               )}
             </S.BlogPostContent>
@@ -69,7 +71,7 @@ class BlogPostTemplate extends React.Component {
           <ul
             style={{
               display: `flex`,
-              width: '100%',
+              width: "100%",
               flexWrap: `wrap`,
               justifyContent: `space-between`,
               listStyle: `none`,

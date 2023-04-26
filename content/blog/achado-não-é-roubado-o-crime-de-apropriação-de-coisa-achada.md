@@ -5,6 +5,7 @@ movieTwo: Sem vídeo
 date: 2020-07-27T20:12:08.030Z
 title: Achado não é roubado? O crime de apropriação de coisa achada
 ---
+
 Realmente, achado não é roubado, mas não devolver o objeto encontrado é crime de qualquer maneira. Este crime chama-se “apropriação de coisa achada”, cuja pena é de detenção de um mês a um ano ou multa, de acordo com o art. 169 do Código Penal.
 
 1. Achado não é ROUBADO

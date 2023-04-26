@@ -1,27 +1,27 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import * as S from './styled'
-import links from './content';
+import * as S from "./styled"
+import links from "./content"
 
 class Toggle extends React.Component {
   state = {
-		on: false,
-	}
+    on: false,
+  }
 
   toggle = () => {
     this.setState({
-      on: !this.state.on
+      on: !this.state.on,
     })
   }
   render() {
     return (
       <S.ToggleWrapper>
-        <S.ToggleBtn onClick={this.toggle} >
-           <S.ToggleBtnLine />
-           <S.ToggleBtnLine />
-           <S.ToggleBtnLine />
-         </S.ToggleBtn>
-        {this.state.on &&
+        <S.ToggleBtn onClick={this.toggle}>
+          <S.ToggleBtnLine />
+          <S.ToggleBtnLine />
+          <S.ToggleBtnLine />
+        </S.ToggleBtn>
+        {this.state.on && (
           <S.ToggleBox>
             <S.ToggleLinksList>
               {links.map((link, i) => (
@@ -33,10 +33,10 @@ class Toggle extends React.Component {
               ))}
             </S.ToggleLinksList>
           </S.ToggleBox>
-         }
+        )}
       </S.ToggleWrapper>
     )
   }
 }
 
-export default Toggle;
+export default Toggle
