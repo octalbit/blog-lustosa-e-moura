@@ -34,12 +34,12 @@ const contact = () => (
               <S.StyledAboutItemTitle>Valores</S.StyledAboutItemTitle>
               <S.StyledAboutItemText>
                 <ul>
-                  <li>• Agilidade</li>
-                  <li>• Transparência</li>
-                  <li>• Qualidade no atendimento aos clientes; </li>
-                  <li>• Comprometimento; </li>
-                  <li>• Ética </li>
-                  <li>• Respeito aos clientes; </li>
+                  <li>• Agilidade;</li>
+                  <li>• Transparência;</li>
+                  <li>• Qualidade no atendimento aos clientes;</li>
+                  <li>• Comprometimento;</li>
+                  <li>• Ética;</li>
+                  <li>• Respeito aos clientes;</li>
                   <li>• Responsabilidade social;</li>
                 </ul>
               </S.StyledAboutItemText>
