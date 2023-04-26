@@ -7,9 +7,10 @@ title: >-
   Auxílio: Caixa libera parcelas dos ciclos 5 e 6, dos nascidos em abril. Cerca
   de 3,4 milhões de inscritos no programa serão beneficiados
 ---
+
 A Caixa realiza, nesta quarta-feira (6), mais uma etapa de saque em dinheiro do Auxílio Emergencial e do Auxílio Emergencial Extensão.
 
-Cerca de 3,4 milhões de beneficiários dos ciclos 5 e 6, nascidos em abril, poderão sacar ou transferir o saldo da Poupança Social Digital. Os recursos creditados são da ordem de R$  2,3 bilhões.
+Cerca de 3,4 milhões de beneficiários dos ciclos 5 e 6, nascidos em abril, poderão sacar ou transferir o saldo da Poupança Social Digital. Os recursos creditados são da ordem de R\$ 2,3 bilhões.
 
 Desse total, R$ 2,1 bilhões são referentes às parcelas do Auxílio Emergencial Extensão e o restante, R$ 200 milhões, às parcelas do Auxílio Emergencial.
 
