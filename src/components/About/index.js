@@ -8,9 +8,9 @@ const About = () => (
     <S.AboutContainer>
       <S.AboutContent>
         <S.AboutBoxText>
-          <S.AboutTitle>quem nós somos</S.AboutTitle>
+          <S.AboutTitle>quem sou</S.AboutTitle>
           <S.AboutText>
-            VICENTE LUSTOSA ADVOCACIA E CONSULTORIA JURIDICA
+            VICENTE LUSTOSA ADVOGADO PREVIDENCIARISTA
           </S.AboutText>
           <S.AboutText>
             Nosso escritório atua em todas as causas previdenciárias, e sempre

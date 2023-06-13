@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Vicente Lustosa - Advocacia e Consultoria Jurídica`,
+    title: `Vicente Lustosa - Advogado Previdenciarista`,
     author: `Vicente Lustosa`,
     description: `Somos focados na excelência do atendimento a cada cliente, proporcionando-lhe o conforto de estar sempre bem informado de suas causas e seguro de que a estas os sócios lhe emprestam alta competência técnica, desenvolvendo estratégias específicas, bem como atuam dentro de rigorosa ética.`,
     movieOne: "movie 01",

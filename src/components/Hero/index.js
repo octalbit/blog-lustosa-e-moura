@@ -10,6 +10,8 @@ const Hero = () => (
           <S.HeroBannerTitle>
             <S.HeroBannerColor>Vicente</S.HeroBannerColor>
             <S.HeroBannerColor> Lustosa</S.HeroBannerColor>
+            <br />
+            <S.HeroBannerColor>ADVOGADO PREVIDENCIARISTA</S.HeroBannerColor>
           </S.HeroBannerTitle>
           <S.HeroBannerSubtitle>
             Somos focados na excelência do atendimento a cada cliente,

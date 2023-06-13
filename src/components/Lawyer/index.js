@@ -8,7 +8,7 @@ const Lawyer = () => (
   <S.LawWrapper>
     <S.LawContainer>
       <S.LawContent>
-        <TitleBox text="Nossos advogados" />
+        <TitleBox text="Vicente Lustosa" />
         <S.LawBoxItems>
           {law.map((id, i) => (
             <S.LawBoxItem key={i}>
