@@ -14,7 +14,7 @@ const Link = styled.a`
 
 const ButtonWhatsappSocial = () => (
    <Link href="https://wa.link/2luout">
-        <img width={60} height={60} src={WhatsImg} alt="whatsapp-icon"/>
+        <img width={80} height={80} src={WhatsImg} alt="whatsapp-icon"/>
     </Link>
 );
 
