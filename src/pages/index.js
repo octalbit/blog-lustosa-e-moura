@@ -9,7 +9,7 @@ import About from "../components/About"
 import Area from "../components/Area"
 import BlogHome from "../components/BlogHome"
 import ContactBox from "../components/ContactBox"
-import ButtonWhatsappSocial from "../components/ButtonWhatsappSocial"
+// import ButtonWhatsappSocial from "../components/ButtonWhatsappSocial"
 
 const IndexPage = props => {
   const { data } = props
@@ -22,7 +22,7 @@ const IndexPage = props => {
       <Area />
       <BlogHome data={data} />
       <ContactBox />
-      <ButtonWhatsappSocial />
+      {/* <ButtonWhatsappSocial /> */}
     </Layout>
   )
 }
