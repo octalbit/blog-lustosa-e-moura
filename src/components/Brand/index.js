@@ -1,7 +1,7 @@
 import React from "react"
 
 import * as S from "./styled"
-import BrandImg from "../../images/brand.png"
+import BrandImg from "../../images/logo.png"
 
 const Brand = () => (
   <S.BrandWrapper to="/">
