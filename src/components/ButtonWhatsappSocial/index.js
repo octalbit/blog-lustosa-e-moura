@@ -1,21 +1,13 @@
 import React from "react";
-import styled from "styled-components";
-import WhatsImg from "../../images/whatsapp.png"
-
-const Link = styled.a`
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    bottom: 10px;
-    right: 10px;
-`;
 
 const ButtonWhatsappSocial = () => (
-   <Link href="https://wa.link/2luout">
-        <img width={80} height={80} src={WhatsImg} alt="whatsapp-icon"/>
-    </Link>
+    <>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+            <a href="https://wa.link/2luout" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+            z-index:1000;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+    </>
 );
 
 export default ButtonWhatsappSocial;
