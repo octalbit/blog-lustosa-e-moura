@@ -4,6 +4,7 @@ import * as S from "./styled"
 import MenuLink from "../MenuLink"
 import Brand from "../Brand"
 import Toggle from "../Toggle"
+import SocialLinks from "../SocialLinks"
 
 const Navbar = () => (
   <S.NavbarWrapper>
@@ -14,6 +15,7 @@ const Navbar = () => (
         <Toggle />
       </S.NavbarContent>
     </S.NavbarContainer>
+    <SocialLinks color="white"/>
   </S.NavbarWrapper>
 )
 

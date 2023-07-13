@@ -1,7 +1,6 @@
 import React from "react"
 
 import * as S from "./styled"
-import SocialLinks from "../SocialLinks"
 
 const Hero = () => (
   <S.HeroWrapper>
@@ -21,7 +20,6 @@ const Hero = () => (
             competência técnica, desenvolvendo estratégias específicas, bem como
             atuam dentro de rigorosa ética.
           </S.HeroBannerSubtitle>
-          <SocialLinks color="white"/>
         </S.HeroBannerBox>
       </S.HeroContent>
     </S.HeroContainer>
