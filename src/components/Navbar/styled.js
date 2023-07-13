@@ -7,15 +7,11 @@ export const NavbarWrapper = styled.nav`
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
   z-index: 999;
-  display: flex;
-  flex-direction: column;
 `
-
 export const NavbarContainer = styled.div`
   max-width: 1000px;
   margin: auto;
   height: 100%;
-  display: initial;
 `
 
 export const NavbarContent = styled.div`
@@ -28,12 +24,4 @@ export const NavbarContent = styled.div`
   @media (max-width: 768px) {
     padding: 0px 15px;
   }
-`
-
-export const SocialContainer = styled.div`
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
 `
