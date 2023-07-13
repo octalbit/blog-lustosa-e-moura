@@ -11,6 +11,10 @@ const links = [
     label: "Instagram",
     url: `https://instagram.com/vicente.lustosa.50?igshid=ZDdkNTZiNTM=`,
   },
+  {
+    label: "Youtube",
+    url: `https://www.youtube.com/@vicentelustosapereira6531`,
+  },
 ]
 
 export default links
