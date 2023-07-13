@@ -21,7 +21,7 @@ const Hero = () => (
             competência técnica, desenvolvendo estratégias específicas, bem como
             atuam dentro de rigorosa ética.
           </S.HeroBannerSubtitle>
-          <SocialLinks />
+          <SocialLinks color="white"/>
         </S.HeroBannerBox>
       </S.HeroContent>
     </S.HeroContainer>
