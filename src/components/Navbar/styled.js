@@ -15,6 +15,7 @@ export const NavbarContainer = styled.div`
   max-width: 1000px;
   margin: auto;
   height: 100%;
+  display: initial;
 `
 
 export const NavbarContent = styled.div`
@@ -34,4 +35,5 @@ export const SocialContainer = styled.div`
   margin: auto;
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
 `
