@@ -156,7 +156,7 @@ function ContactBox() {
               </S.ContactBoxForm>
             </S.ContactBoxFormBox>
           </S.ContactBoxInfoBox>
-          <SocialLinks color="white" />
+          {/* <SocialLinks color="white" /> */}
         </S.ContactBoxContent>
       </S.ContactBoxContainer>
     </S.ContactBoxWrapper>
